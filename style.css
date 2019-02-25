@@ -77,19 +77,19 @@ line-height: 40px;
 }
 table
 {
-	text-align:center;
-	margin: 0 auto;
+text-align:center;
+margin: 0 auto;
 }
 thead
 {
-	border: 1px solid black;
-	text-align: center;
+border: 1px solid black;
+text-align: center;
 }
 th
 {
-	border: 0 px solid;
-	width: 200px;
-	height: 40px;
+border: 0 px solid;
+width: 200px;
+height: 40px;
 }
 h1
 {
