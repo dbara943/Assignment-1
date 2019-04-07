@@ -1,0 +1,62 @@
+﻿.container{
+	font-size: 40px;
+}
+html
+{
+width: 100%;
+height: 100%;
+}
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+#content
+{
+width: 60%;
+text-align: center;
+margin-left: 20%;
+}
+#services1
+{
+width: 60%;
+text-align: center;
+margin-left: 20%;
+line-height: 40px;
+}
+table
+{
+text-align:center;
+margin: 0 auto;
+}
+thead
+{
+border: 1px solid black;
+text-align: center;
+}
+
+h1
+{
+font-family: Arial;
+}
+a
+{
+text-decoration: none;
+color: blue;
+}
+}
+.welcome
+{
+	font-family: Arial;
+}
+#form1
+{
+float: center;
+}
+@media only screen and (max-width: 900px)
+{
+img
+{
+width: 70%;
+height: 50%;
+}
+}

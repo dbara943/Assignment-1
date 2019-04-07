@@ -6,79 +6,104 @@
 	<meta name="description" content="Buying and selling cars and parts">
 	<meta name="keywords" content="Cars, Parts, Trading, Automobiles">
 	<meta name="author" content="Daniel Baranowski">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calgary Auto Group</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 <body>
-<div id="baner">
-	<div id="logo">
-		<img src="images/logo.png" alt="Calgary Auto Group" title="Logo" width="160" height="80"/>
-		<h1>Calgary Auto Group</h1>
-	</div>
-	<div id="home">
-		<a href="code.html">Home</a>
-	</div>
-	<div id="home">
-		<a href="services.html">Services</a>
-	</div>
-	<div id="home">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="images/logo.png" alt="Calgary Auto Group" class="image" title="Logo" width="160" height="80"/>
+    </div>
+    <div class="col-sm">
+      <a href="code.html">Home</a>
+    </div>
+    <div class="col-sm">
+      <a href="services.html">Services</a>
+    </div>
+	<div class="col-sm">
 		<a href="buyers.html">Buyers's Fee</a>
-	</div>
-	<div id="home">
+    </div>
+	<div class="col-sm">
 		<a href="contact.html">Contact</a>
-	</div>
+    </div>
+  </div>
 </div>
 <div id="content">
 <br>
 <br>
 <!-- This is the table for the different applicable prices -->
-<table border = "1">
-	<caption><font size="40">Buyer's Fee</font></caption>
-	<thead>
-		<th colspan = "2">
-		<strong>Prices</strong><br>
-		</th>
-		<tr>
-			<th>$1 - $499</th>
-			<th>$75 fee</th>
-		<tr>
-			<th>$500 - $999</th>
-			<th>$105 fee</th>
-		<tr>
-			<th>$1000 - $1999</th>
-			<th>$155 fee</th>
-		<tr>
-			<th>$2000 - $2999</th>
-			<th>$205 fee</th>
-		<tr>
-			<th>$3000 - $3999</th>
-			<th>$255 fee</th>
-		<tr>
-			<th>$4000 - $4999</th>
-			<th>$305 fee</th>
-		<tr>
-			<th>$5000 - $5999</th>
-			<th>$335 fee</th>
-		<tr>
-			<th>$6000 - $6999</th>
-			<th>$365 fee</th>
-		<tr>
-			<th>$7000 - $7999</th>
-			<th>$395 fee</th>
-		<tr>
-			<th>$8000 - $8999</th>
-			<th>$425 fee</th>
-		<tr>
-			<th>$9000 - $9999</th>
-			<th>$455 fee</th>
-		<tr>
-			<th>$10000 +</th>
-			<th>$495 fee</th>
-</thead>
+<div class="container">
+  <h2>Buyer's fee</h2>                                                                           
+  <div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <td>Price</td>
+        <td>Fee</td>
+      </tr>
+    </thead>
+    <tbody>
+	  <tr>
+		<td>$1 - $499</td>
+		<td>$75 fee</td>
+	  </tr>
+	  <tr>
+		<td>$500 - $999</td>
+		<td>$105 fee</td>
+	  <tr>
+		<td>$1000 - $1999</td>
+		<td>$155 fee</td>
+	<tr>
+		<td>$2000 - $2999</td>
+		<td>$205 fee</td>
+	<tr>
+		<td>$3000 - $3999</td>
+		<td>$255 fee</td>
+	<tr>
+		<td>$4000 - $4999</td>
+		<td>$305 fee</td>
+	<tr>
+		<td>$5000 - $5999</td>
+		<td>$335 fee</td>
+	<tr>
+		<td>$6000 - $6999</td>
+		<td>$365 fee</td>
+	<tr>
+		<td>$7000 - $7999</td>
+		<td>$395 fee</td>
+	<tr>
+		<td>$8000 - $8999</td>
+		<td>$425 fee</td>
+	<tr>
+		<td>$9000 - $9999</td>
+		<td>$455 fee</td>
+	<tr>
+		<td>$10000 +</td>
+		<td>$495 fee</td>
+	</tbody>
+  </table>
+  </div>
 </div>
-<div id="footer">
-<div id="footer1"><p class="author">Author: Daniel Baranowski</p></div>
-<div id="footer2"><p><a href="http://www.regalauctions.com" target="_blank">Our partners</a></p></div>
-</div>
+<footer class="page-footer font-small special-color-dark pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+        </div>
+        <div class="col-md-6 mb-4">
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">2018 Copyright: Daniel Baranowski
+      <a href="http://www.regalauctions.com">Our partners</a>
+    </div>
+  </footer>
+</body>
+</html>
 </body>
 </html>
