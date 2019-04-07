@@ -1,5 +1,7 @@
-﻿.container{
+﻿.container
+{
 	font-size: 20px;
+	width: 100%;
 }
 html
 {
@@ -39,12 +41,59 @@ a
 text-decoration: none;
 color: blue;
 }
+p
+{
+	text-align: center;
+}
 .menu
 {
 	font-size: 30px;
 }
-}
 .welcome
 {
 	font-family: Arial;
+}
+@media only screen and (max-width: 400px) {
+  body 
+	{
+    background-color: #F09A9D; /* Red */
+	}
+  img
+	{
+	width: 80%;
+	height: 50%;
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body
+  {
+    background-color: whitesmoke; /* Yellow */
+  }
+  a
+  {
+  	  text-align: center;
+	  color: red;
+  }
+  	img
+	{
+	margin:0 auto;
+	display:block;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body 
+  {
+    background-color: whitesmoke; /* Blue */
+  }
+	#contlogo{
+	background-color: #B3B3B3;
+	}
+  img
+  {
+  	margin-left: -15px;
+  }
 }

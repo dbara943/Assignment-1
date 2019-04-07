@@ -1,10 +1,20 @@
-﻿#form1{
-float: center;
+﻿#audi{
+	height: 50%;
+	border: ridge 25px grey;
+	Filter: hue-rotate(60deg) saturate(1);
+		margin:0 auto;
+	display:block;
 }
-@media only screen and (max-width: 900px){
-img
-{
-width: 70%;
-height: 50%;
-}
-}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+   #audi
+	{
+	width: 80%;
+	height: 50%;
+	border: solid 15px white;
+	margin:0 auto;
+	display:block;
+	}
+	}
+	#caption{
+		text-align: center;
+	}

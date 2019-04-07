@@ -6,12 +6,12 @@
 	<meta name="description" content="Buying and selling cars and parts">
 	<meta name="keywords" content="Cars, Parts, Trading, Automobiles">
 	<meta name="author" content="Daniel Baranowski">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calgary Auto Group</title>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style/style.css"/>
 	<link rel="stylesheet" type="text/css" href="style/contact.css"/>
 </head>
@@ -19,7 +19,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <img src="images/logo.png" alt="Calgary Auto Group" class="image" title="Logo" width="160" height="80"/>
+      <img src="images/logo.png" alt="Calgary Auto Group" class="img-fluid" title="Logo" width="160" height="80"/>
     </div>
     <div class="col-sm">
       <a class="menu" href="code.html">Home</a>
@@ -42,8 +42,9 @@
 	<div class="form-group">
       <label class="control-label col-sm-2" for="email">Name: (required)</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="name" placeholder="Enter your name" name="name" required>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" required>
       </div>
+	</div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email: (required)</label>
       <div class="col-sm-10">
@@ -52,24 +53,24 @@
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="pwd">Birthday:</label>
-      <div class="col-sm-10">          
+      <label class="control-label col-sm-2">Birthday:</label>
+      <div class="col-sm-10">      
+	  </div>
         <input name="date" type="date"/>
       </div>
-    </div>
 	<div class="form-group">
 	<fieldset>
       <legend> Please tell us how you have found about us: (optional)</legend>
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
-		<input type="checkbox" name="category" class="support-enter" value="Facebook">Facebook
-		<input type="checkbox" name="category" class="support-enter" value="Google">Google
-		<input type="checkbox" name="category" class="support-enter" value="Friends">Friends
-		<input type="checkbox" name="category" class="support-enter" value="TV">TV
+		<input type="checkbox" name="category" class="support-enter" value="Facebook">Facebook &nbsp;
+		<input type="checkbox" name="category" class="support-enter" value="Google">Google &nbsp;
+		<input type="checkbox" name="category" class="support-enter" value="Friends">Friends &nbsp;
+		<input type="checkbox" name="category" class="support-enter" value="TV">TV &nbsp;
 		</div>
       </div>
-	  </legend>
-    </div>
+	  	 </fieldset>
+	 </div>
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit">Submit</button>
@@ -82,8 +83,8 @@
 
 </div>
 <figure>
-  <img src="images/car.jpg" class="img-fluid" alt="This is a picture of an Audi A8" title="Audi A8" width="640" height="320">
-  <figcaption>Audi A8</figcaption>
+  <img src="images/car.jpg" id="audi" alt="This is a picture of an Audi A8" title="Audi A8" width="640" height="320">
+  <figcaption id="caption">Audi A8</figcaption>
 </figure>
 <p>Fill out this form and you can win this beautiful Audi A8! All you have to do is fill out every field and you will be automatically considered in our lottery! Must be 18 years old. Policies apply.
 <footer class="page-footer font-small special-color-dark pt-4">
@@ -99,7 +100,5 @@
       <a href="http://www.regalauctions.com">Our partners</a>
     </div>
   </footer>
-</body>
-</html>
 </body>
 </html>
