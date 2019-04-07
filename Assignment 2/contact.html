@@ -10,9 +10,10 @@
     <title>Calgary Auto Group</title>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
-	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css"/>
+	<link rel="stylesheet" type="text/css" href="style/contact.css"/>
 </head>
 <body>
 <div class="container">
@@ -21,16 +22,16 @@
       <img src="images/logo.png" alt="Calgary Auto Group" class="image" title="Logo" width="160" height="80"/>
     </div>
     <div class="col-sm">
-      <a href="code.html">Home</a>
+      <a class="menu" href="code.html">Home</a>
     </div>
     <div class="col-sm">
-      <a href="services.html">Services</a>
+      <a class="menu" href="services.html">Services</a>
     </div>
 	<div class="col-sm">
-		<a href="buyers.html">Buyers's Fee</a>
+		<a class="menu" href="buyers.html">Buyers's Fee</a>
     </div>
 	<div class="col-sm">
-		<a href="contact.html">Contact</a>
+		<a class="menu" href="contact.html">Contact</a>
     </div>
   </div>
 </div>
@@ -39,14 +40,15 @@
   <h2>Contact</h2>
   <form class="form-horizontal" action="mailto:dbara943@mtroyal.ca" >
 	<div class="form-group">
-      <label class="control-label col-sm-2" for="email">Name:</label>
+      <label class="control-label col-sm-2" for="email">Name: (required)</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="name" placeholder="Name..." name="name" required>
+        <input type="name" class="form-control" id="name" placeholder="Enter your name" name="name" required>
       </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="email">Email:</label>
+      <label class="control-label col-sm-2" for="email">Email: (required)</label>
       <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+		  <small id="emailHelp" class="form-text text-muted">ex. smith@gmail.com</small>
       </div>
     </div>
     <div class="form-group">
@@ -55,24 +57,23 @@
         <input name="date" type="date"/>
       </div>
     </div>
-	<div class="form-group">        
+	<div class="form-group">
+	<fieldset>
+      <legend> Please tell us how you have found about us: (optional)</legend>
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
-		<label>
-		Please tell us how you have found about us:<br>
-		<input type="checkbox" name="category" value="Facebook">Facebook
-		<input type="checkbox" name="category" value="Google">Google
-		<input type="checkbox" name="category" value="Friends">Friends
-		<input type="checkbox" name="category" value="TV">TV
-		</label>
-		 </div>
+		<input type="checkbox" name="category" class="support-enter" value="Facebook">Facebook
+		<input type="checkbox" name="category" class="support-enter" value="Google">Google
+		<input type="checkbox" name="category" class="support-enter" value="Friends">Friends
+		<input type="checkbox" name="category" class="support-enter" value="TV">TV
+		</div>
       </div>
+	  </legend>
     </div>
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit">Submit</button>
 		<button type="reset">Reset</button>
-		<!-- class="btn btn-default!-->
       </div>
     </div>
   </form>
@@ -81,10 +82,10 @@
 
 </div>
 <figure>
-  <img src="images/car.jpg" alt="This is a picture of an Audi A8" title="Audi A8" width="640" height="320">
+  <img src="images/car.jpg" class="img-fluid" alt="This is a picture of an Audi A8" title="Audi A8" width="640" height="320">
   <figcaption>Audi A8</figcaption>
 </figure>
-<p>Fill out this form and you can win this beautiful Audi A8! All you have to do is fill out every field and you will be automatically considered in our lottery! Must be 18 years old. Policies apply.<img src="images/thumbup.png" alt="Thumb up" width="42" height="42" align="right"></p><br><br>
+<p>Fill out this form and you can win this beautiful Audi A8! All you have to do is fill out every field and you will be automatically considered in our lottery! Must be 18 years old. Policies apply.
 <footer class="page-footer font-small special-color-dark pt-4">
     <div class="container">
       <div class="row">

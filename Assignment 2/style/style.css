@@ -1,14 +1,10 @@
 ﻿.container{
-	font-size: 40px;
+	font-size: 20px;
 }
 html
 {
 width: 100%;
 height: 100%;
-}
-p::first-letter {
-  color: #ff0000;
-  font-size: xx-large;
 }
 #content
 {
@@ -43,20 +39,12 @@ a
 text-decoration: none;
 color: blue;
 }
+.menu
+{
+	font-size: 30px;
+}
 }
 .welcome
 {
 	font-family: Arial;
-}
-#form1
-{
-float: center;
-}
-@media only screen and (max-width: 900px)
-{
-img
-{
-width: 70%;
-height: 50%;
-}
 }
