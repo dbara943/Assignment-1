@@ -43,3 +43,15 @@ p
 	#caption{
 		text-align: center;
 	}
+}
+.lower_left {
+	position:absolute;
+	bottom: 0%;
+	left: 0%;
+}
+.first{
+z-index: 1;
+}
+.second{
+z-index: 3;
+}
