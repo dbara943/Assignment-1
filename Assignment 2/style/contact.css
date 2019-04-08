@@ -1,8 +1,8 @@
 ﻿#audi{
 	height: 50%;
 	border: ridge 25px grey;
-	Filter: hue-rotate(60deg) saturate(1);
-		margin:0 auto;
+	Filter: hue-rotate(60deg) saturate(0.1);
+	margin:0 auto;
 	display:block;
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {

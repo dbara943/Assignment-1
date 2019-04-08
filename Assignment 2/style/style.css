@@ -3,6 +3,9 @@
 	font-size: 20px;
 	width: 100%;
 }
+#colormenu{
+background-color: white;
+}
 html
 {
 width: 100%;
@@ -13,13 +16,6 @@ height: 100%;
 width: 60%;
 text-align: center;
 margin-left: 20%;
-}
-#services1
-{
-width: 60%;
-text-align: center;
-margin-left: 20%;
-line-height: 40px;
 }
 table
 {
@@ -49,10 +45,6 @@ p
 {
 	font-size: 30px;
 }
-.welcome
-{
-	font-family: Arial;
-}
 @media only screen and (max-width: 400px) {
   body 
 	{
@@ -69,7 +61,7 @@ p
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body
   {
-    background-color: whitesmoke; /* Yellow */
+    background-color: whitesmoke;
   }
   a
   {
@@ -87,13 +79,22 @@ p
 @media only screen and (min-width: 961px) {
   body 
   {
-    background-color: whitesmoke; /* Blue */
+    background-color: whitesmoke;
   }
 	#contlogo{
 	background-color: #B3B3B3;
 	}
-  img
-  {
-  	margin-left: -15px;
-  }
+}
+.hidden{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+.hidden:focus{
+	position:static; 
+	width:auto; 
+	height:auto; 
 }
