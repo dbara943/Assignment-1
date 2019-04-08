@@ -1,9 +1,34 @@
-﻿#audi{
+﻿#here{
+	color: red;
+}
+.hidden{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+.hidden:focus{
+	position:static; 
+	width:auto; 
+	height:auto; 
+}
+#audi{
 	height: 50%;
 	border: ridge 25px grey;
 	Filter: hue-rotate(60deg) saturate(0.1);
 	margin:0 auto;
 	display:block;
+}
+p
+{
+	font-family: Arial;
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
+	line-height: 40px;
+	font-size: 20px;
 }
 @media only screen and (min-width: 401px) and (max-width: 960px) {
    #audi
